@@ -1,7 +1,9 @@
 node_modules
 package-lock.json
 .babelrc
-package.json
+.cache
+.vscode
+
 #amplify
 amplify/\#current-cloud-backend
 amplify/.config/local-*
