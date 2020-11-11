@@ -40,3 +40,4 @@ This is a platform that I'll be using to upload my memes to an S3 bucket with AW
 - [Amplify Docs](https://docs.amplify.aws/cli/start/install)
 - [Ali Spittel Blog: S3]
 - [Ali Spittel Blog: FullStack with ]
+- [Amplify Docs: Downloading files from S3](https://docs.amplify.aws/lib/storage/download/q/platform/js#file-download-option)
