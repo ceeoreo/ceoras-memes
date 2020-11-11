@@ -24,10 +24,11 @@ This is a platform that I'll be using to upload my memes to an S3 bucket with AW
 - Make sure to install `npm i aws-amplify` since this is different from `npm i amplify`. This will affect how the project runs.
 - When adding storage, make sure to allow guest create/update otherwise viewing in parcel won't allow you to upload.
 - Don't use pre-existing s3. This just makes life hard tbh.
+- Make sure to `.gitignore` the `.cache`file.
 
 ## Next Steps
 
-- Create API with Amplify and GraphQL
+- Create meme API with Amplify and GraphQL
 - Attach API to DynamoDB database
 - Allow users to see all uploaded files in s3
 - Create search functionality that displays memes based on key word search
