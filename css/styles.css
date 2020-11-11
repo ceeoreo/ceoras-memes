@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    
+}
+
+header {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 40px;
+}
+
+li, a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px 0 0;
+}
+
+li:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+h1, h2 {
+    margin: 30px;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 30px;
+}
+
+input[type="submit"] {
+    padding: 6px;
+    width: 125px;
+    font-family: Montserrat;
+    border-radius: 5px;
+    border: black;
+    transition: all 0.35s ease;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+    transition: all 0.35s ease;
+}
+
+/* 
+#intro {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+h1 {
+  font-family: Bellota; 
+  font-size: 40px;
+  margin: 20px;
+}
+
+#gif-selection {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#form {
+  margin: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.form-elements {
+  margin: 5px;
+}
+
+#searchButton {
+  font-size: 15px;
+  font-family: Bellota;
+  padding: 5px;
+  width: 125px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border-color: black;
+  transition: all 0.35s ease;
+}
+
+#searchButton:hover {
+  transform: scale(1.2);
+  background-color: white;
+  color: black;
+  transition: all 0.35s ease;
+}
+
+#changeImage {
+  height: 400px;
+  width: 400px;
+  margin-bottom: 40px;
+  object-fit: fill;
+}
+
+@media(max-width: 600px) {
+  
+  #form {
+    margin: 5px;
+  }
+  
+  #searchTerm {
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  #searchButton {
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  #changeImage {
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    margin-bottom: 150px;
+  }
+} */

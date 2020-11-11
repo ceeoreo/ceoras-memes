@@ -19,6 +19,12 @@ This is a platform that I'll be using to upload my memes to an S3 bucket with AW
 4. Add JavaScript functionality that grabs image uploaded through form and places it in designated s3 bucket.
 5. Add CSS styles for responsive page
 
+## Mile Stones
+
+- Make sure to install `npm i aws-amplify` since this is different from `npm i amplify`. This will affect how the project runs.
+- When adding storage, make sure to allow guest create/update otherwise viewing in parcel won't allow you to upload.
+- Don't use pre-existing s3. This just makes life hard tbh.
+
 ## Next Steps
 
 - Create API with Amplify and GraphQL
@@ -26,5 +32,10 @@ This is a platform that I'll be using to upload my memes to an S3 bucket with AW
 - Allow users to see all uploaded files in s3
 - Create search functionality that displays memes based on key word search
 - Instead of search, possibly categorize memes
+- Display image on upload
 
 ## Resources
+
+- [Amplify Docs](https://docs.amplify.aws/cli/start/install)
+- [Ali Spittel Blog: S3]
+- [Ali Spittel Blog: FullStack with ]
