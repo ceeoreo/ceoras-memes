@@ -34,6 +34,7 @@ This is a platform that I'll be using to upload my memes to an S3 bucket with AW
 - Create search functionality that displays memes based on key word search
 - Instead of search, possibly categorize memes
 - Display image on upload
+- Add alt text descriptor field for images that are uploaded
 
 ## Resources
 
