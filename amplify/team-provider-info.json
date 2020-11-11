@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ceorasmemes-dev-80727-authRole",
+      "UnauthRoleArn": "arn:aws:iam::806549503431:role/amplify-ceorasmemes-dev-80727-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::806549503431:role/amplify-ceorasmemes-dev-80727-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ceorasmemes-dev-80727-deployment",
+      "UnauthRoleName": "amplify-ceorasmemes-dev-80727-unauthRole",
+      "StackName": "amplify-ceorasmemes-dev-80727",
+      "StackId": "arn:aws:cloudformation:us-east-1:806549503431:stack/amplify-ceorasmemes-dev-80727/db498760-241e-11eb-bc8d-0e29088293c9",
+      "AmplifyAppId": "d2mypd3wdqakno"
+    },
+    "categories": {
+      "auth": {
+        "ceorasmemes45a11fa9": {}
+      }
+    }
+  }
+}

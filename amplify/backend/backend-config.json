@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "ceorasmemes45a11fa9": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "ceorasmemes": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
