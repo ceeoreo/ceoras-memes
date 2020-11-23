@@ -5,8 +5,10 @@
     
 }
 
+body {
+  background-color: cornflowerblue;
+}
 header {
-    background-color: white;
     height: 50px;
     width: 100%;
 }
